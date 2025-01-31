@@ -4,10 +4,11 @@
   "description": "IMM user auth API Autherntication of Image Manipulation Wizard users via login",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "IMM-Team",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
