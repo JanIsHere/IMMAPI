@@ -139,4 +139,7 @@ logs/
 # Ignore Vercel deployment folder
 .vercel/
 output/
+
+#ignore important file pls
+*.env
 exvar.env
