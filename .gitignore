@@ -132,9 +132,6 @@ dist
 # Ignore the node_modules folder
 node_modules/
 
-# Ignore environment variables
-.env
-
 # Ignore logs
 logs/
 *.log
