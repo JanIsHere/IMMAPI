@@ -8,15 +8,15 @@ const app = express();
 const PORT = 3000;
 
 // Supabase Setup
-const supabaseUrl = "YOUR_SUPABASE_URL";
-const supabaseKey = "YOUR_SUPABASE_KEY";
+const supabaseUrl = "SUPABASE_URL";
+const supabaseKey = "SUPABASE_KEY";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Middleware
 app.use(bodyParser.json());
 
 // Secret key for JWT
-const SECRET_KEY = "your_secret_key";
+const SECRET_KEY = "secret_key";
 
 // Routes
 // Register
